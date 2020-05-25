@@ -116,8 +116,8 @@ class Dashboard extends React.Component {
                     </div>
                     <div className="col-12 col-md-3 ">
                         <div className="row d-flex justify-content-center" style={{backgroundColor : "#00B1BB",borderRadius: 20}}>
-                            <h1>Job Updates</h1>
-                            <ul className="list-group pb-5">
+                            <h1 className="col-12">Job Updates</h1>
+                            <ul className="col-12 list-group pb-5 pl-2">
                                 <li className="list-group-item disabled" aria-disabled="true"><marquee>Jobs Available</marquee></li>
                                 <li className="list-group-item"><marquee>Php developer jobs</marquee></li>
                                 <li className="list-group-item"><marquee>Bank Manager job</marquee></li>
