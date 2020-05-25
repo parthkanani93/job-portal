@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Navigationbar from './component/Navbar.component';
-import Carosal from './component/Carosal.component'
+import Carosal from './component/Carosal.component';
+import Dashboard from './component/dashboard.component';
 
 
 function App(props) {
@@ -11,9 +12,8 @@ function App(props) {
     <div className="App">
 
       <Navigationbar />
-      <div>
       <Carosal/>
-      </div>
+      <Dashboard/>
       
       
 

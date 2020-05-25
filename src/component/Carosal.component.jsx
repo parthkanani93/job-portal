@@ -11,17 +11,17 @@ const items = [
     {
         src: 'https://cdn.pixabay.com/photo/2017/10/31/09/55/dream-job-2904780_960_720.jpg',
         altText: 'Slide 1',
-        caption: 'Slide 1'
+        caption: ''
     },
     {
         src: 'https://cdn.pixabay.com/photo/2016/03/15/09/05/job-1257204_960_720.jpg',
-        altText: 'Slide 2',
-        caption: 'Slide 2'
+        altText: 'Slde 2',
+        caption: ''
     },
     {
         src: 'https://cdn.pixabay.com/photo/2019/09/04/11/49/men-4451375_960_720.png',
         altText: 'Slide 3',
-        caption: 'Slide 3'
+        caption: ''
     }
 ];
 
