@@ -105,6 +105,7 @@ class Dashboard extends React.Component {
                                             {item.salary}
 
                                         </div>
+                                        <button type="button" class="btn btn-danger">Apply</button>
 
                                     </Media>
                                 </Media>
