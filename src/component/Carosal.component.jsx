@@ -53,7 +53,7 @@ const Carosal = (props) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img className="container-fluid" src={item.src} alt={item.altText} style={{width : "100%", height:400}} />
+                <img className="container-fluid" src={item.src} alt={item.altText} style={{width : "100%", height:400,borderRadius:20}} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );
